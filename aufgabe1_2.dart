@@ -10,7 +10,7 @@ class Rectangle {
 
   //methods
   double calculateScope() {
-    return edgeLengthX + edgeLengthY * 2;
+    return (edgeLengthX + edgeLengthY) * 2;
   }
 
   double calculateSurface() {
